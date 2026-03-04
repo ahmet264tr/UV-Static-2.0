@@ -17,6 +17,8 @@
 
 self.__uv$config = {
   prefix: "/active/uv/service/",
+  bare: "https://uv.student-service.com",
+  wisp: "wss://wisp.mercurywork.shop/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/active/uv/uv.handler.js",
@@ -25,3 +27,4 @@ self.__uv$config = {
   config: "/active/uv/uv.config.js",
   sw: "/active/uv/uv.sw.js",
 };
+
